@@ -1,41 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Projects</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../StylesFolder/Styles.css">
     <script src="../Scripts/Script.js"></script>
 </head>
 <body>
     <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="Index.html">Home</a>
-  <a href="Projects.html">Projects</a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="Index.html">Home</a>
+        <a href="Projects.html">Projects</a>
 
-</div>
+    </div>
 
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;Menu</span>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;Menu</span>
 
-  <header>
-    <h1>Projects</h1>
-    <p>Selected projects and highlights.</p>
-  </header>
-  <main>
-    <ul class="project-list">
-      <li class="project-item">
-        <h2>Project One</h2>
-        <p>A brief description of a project, its purpose, and technologies used.</p>
-      </li>
-      <li class="project-item">
-        <h2>Project Two</h2>
-        <p>A second project description with a focus on results and learning outcomes.</p>
-      </li>
-      <li class="project-item">
-        <h2>Project Three</h2>
-        <p>A third project summary showcasing another skill or accomplishment.</p>
-      </li>
-    </ul>
-  </main>
+    <header>
+        <h1>Projects</h1>
+        <p>Selected projects and highlights.</p>
+    </header>
+    <main>
+        <ul class="project-list">
+            <li class="project-item">
+                <h2>Team ToolBox - Internal Automation Application</h2>
+                <p>
+                    Developed an internal C#/.NET desktop application that automates SQL and PostgreSQL
+                    script generation from user‑entered parameters. Implemented MVVM architecture,
+                    structured input validation, and robust null‑checking to support partial or empty input,
+                    enabling users to generate base templates without full parameter sets.
+                    Built a modular script‑templating engine, automatic directory creation, safe file‑write operations,
+                    and one‑click access to the generated scripts folder. Designed a clean UI with themes prototyped using Claude AI.
+                    Followed SOLID principles, async patterns, and internal logging to ensure reliability and maintainability.
+                </p>
+            </li>
+            <li class="project-item">
+                <h2>Discord Bot "Game News Bot"</h2>
+                <a href="https://momo4821.github.io/GameNewsBotApp/" target="_blank" rel="noopener noreferrer">
+                    (Game News Bot Wiki)
+                </a>
+                <p>
+                    Developed a C# Discord bot using
+                    DSharpPlus that retrieves game news from the Steam Web API and posts
+                    updates to designated channels. Implemented asynchronous API requests with robust
+                    null‑checking and partial‑response handling to prevent failures when the
+                    API returns incomplete or empty data. Added structured command modules,
+                    including administrator commands (Ban, Kick, etc.), and built a flexible
+                    foundation for future automated sync/polling features. Designed the bot
+                    to support manual triggers for fetching the latest news while maintaining clean architecture,
+                    async/await patterns, and defensive programming for reliability.
+                </p>
+            </li>
+
+            </li>
+        </ul>
+    </main>
 </body>
 </html>
